@@ -1,6 +1,8 @@
-import DynamicForm from './DynamicForm';
-import FieldArray from './FieldArray';
+import DynamicForm from './comonents/hook-form/Form';
+import FieldArray from './comonents/hook-form/FieldArray';
 import ReactHook from './Reacthook';
+import Form from 'comonents/basicForm/Form';
+import "app.css"
 
 function App() {
 
@@ -9,7 +11,8 @@ function App() {
     <div className="App">
       {/* <DynamicForm></DynamicForm>
       <ReactHook /> */}
-      <FieldArray></FieldArray>
+      {/* <FieldArray></FieldArray> */}
+      <Form></Form>
     </div>
   );
 }
